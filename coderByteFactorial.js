@@ -1,14 +1,11 @@
-function factorial(number)
-{
+function factorial(number) {
    if(number === 0 ||
-      number === 1)
-   {
+      number === 1) {
       return 1;
    }
 
    var factors = [];
-   while(number)
-   {
+   while(number) {
       factors.push(number);
       number--;
    }
